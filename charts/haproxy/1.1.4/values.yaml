@@ -32,9 +32,6 @@ podSecurityPolicy:
 ## ref: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
 rbac:
   create: true
-  extraRoleRules: []
-  extraClusterRoleRules: []
-
 
 ## Configure Service Account
 ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/

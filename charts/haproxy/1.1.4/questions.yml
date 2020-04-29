@@ -37,12 +37,6 @@ questions:
   description: "Service Type for HAProxy Ingress Controller"
   label: Service Type
   group: "Settings"
-- variable: rbac.create
-  default: true
-  description: "Enable RBAC"
-  label: RBAC
-  type: boolean
-  group: "Settings"
 - variable: controller.ingressClass
   default: ""
   description: "Ingress Class for targeting this controller"
