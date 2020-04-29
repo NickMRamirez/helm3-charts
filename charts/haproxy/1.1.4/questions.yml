@@ -33,7 +33,7 @@ questions:
   options:
     - "LoadBalancer"
     - "NodePort"
-  default: "LoadBalancer"
+  default: "NodePort"
   description: "Service Type for HAProxy Ingress Controller"
   label: Service Type
   group: "Settings"
